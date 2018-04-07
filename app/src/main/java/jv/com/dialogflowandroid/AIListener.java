@@ -8,7 +8,7 @@ import ai.api.model.AIResponse;
  */
 
 public interface AIListener {
-    void onResult(AIResponse); // here process response
+    void onResult(AIResponse result); // here process response
     void onError(AIError error); // here process error
     void onAudioLevel(float level); // callback for sound level visualization
     void onListeningStarted(); // indicate start listening here
