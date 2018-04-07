@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 //                    public void run() {
                         Log.d("ApiAi", "onResult");
                         // TODO process response here
+                        Log.d("result",result.toString());
 //                    }
 //                });
             }
